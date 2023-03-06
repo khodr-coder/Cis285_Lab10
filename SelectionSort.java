@@ -18,8 +18,8 @@ public class SelectionSort {
 
 	                    temp = x[i];
 	                    x[i] = x[j];
-	                    x[j] = temp; /*swapped these 2 as well.
-	                    			  *his swap algorithm was wrong
+	                    x[j] = temp; 	  /*swapped these 2 as well.
+	                    			  *original swap algorithm was wrong
 	                    			  *"temp = x[j];" before printing all 2's */
 	                }
 	            }
